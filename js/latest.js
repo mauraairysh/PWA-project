@@ -33,7 +33,7 @@
 
     // Get Commit Data dari API Github
     function fetchCommits() {
-        var url = 'https://api.github.com/repos/meizano/lampung/commits';
+        var url = 'https://api.github.com/repos/mauraairysh/PWA-project/commits';
 
         fetch(url)
             .then(function (fetchResponse) {
