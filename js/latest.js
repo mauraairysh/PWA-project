@@ -42,7 +42,7 @@
             .then(function (response) {
 
                 // Tahap 1
-                /* var commitData = {
+                var commitData = {
                     'first' : {
                         message: response[0].commit.message,
                         author: response[0].commit.author.name,
@@ -109,7 +109,7 @@
                     "<h4> Author: " + response[4].commit.author.name + "</h4>" +
                     "<h4> Time committed: " + (new Date(response[4].commit.author.date)).toUTCString() + "</h4>" +
                     "<h4>" + "<a href='" + response[4].html_url + "'>Klik untuk rincian!</a>" + "</h4>";
-                */
+                
 
                 // Tahap 2
                 console.log("Respon dari Github", response);
