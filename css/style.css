@@ -559,7 +559,7 @@ b {
 
 b i a {
   text-decoration: underline;
-  color: #1E88E5;
+  color: #9f1ee5;
 }
 
 .add__card ul + p {
@@ -579,7 +579,7 @@ b i a {
 
 .card__spinner::after {
   content: "Loading...";
-  color: #1E88E5;
+  color: #9f1ee5;
   background: #fff;
   position: absolute;
   left: 0;
@@ -617,7 +617,7 @@ b i a {
 
 .share__container a {
   text-decoration: underline;
-  color: #1E88E5;
+  color: #9f1ee5;
 }
 
 .share__container {
